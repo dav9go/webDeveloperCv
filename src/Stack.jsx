@@ -118,9 +118,6 @@ export default function Stack() {
           </div>
         </div>
       </div>
-      <h2 className="text-4xl sm:text-8xl md:text-9xl text-center sm:text-start mt-10">
-        WEB APPS
-      </h2>
     </div>
   );
 }
