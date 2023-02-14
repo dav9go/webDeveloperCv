@@ -20,7 +20,7 @@ export default function WebApp({ photo, title, stack, description, web }) {
           href={`https://www.${web}`}
           className="cursor-pointer absolute bottom-10 left-full group-hover:left-0 hidden lg:flex justify-start items-center h-1/4 w-screen rounded-xl bg-white/0 group-hover:bg-white/90 transition-all duration-700"
         >
-          <p className="text-black text-7xl font-merienda ml-20">
+          <p className="text-black text-5xl font-merienda ml-20">
             {" "}
             Visit webpage{" "}
           </p>

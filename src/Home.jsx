@@ -48,7 +48,7 @@ export default function Home() {
               >
                 Portfolio
               </Link>
-              <Link to="#" className="link relative pb-3 cursor-pointer">
+              <Link to="/contact" className="link relative pb-3 cursor-pointer">
                 Contact
               </Link>
             </nav>
