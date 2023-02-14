@@ -16,7 +16,7 @@ export default function Contact() {
         <section className="mt-20 lg:p-10 flex flex-col gap-20 max-w-5xl mx-auto">
           <form
             className="text-black"
-            action="https://formsubmit.co/david9go@gmail.com"
+            action="https://formsubmit.co/dc2b43c9518e86c5c5389c6689e55218"
             method="POST"
           >
             <div className="w-full flex flex-col gap-10">
