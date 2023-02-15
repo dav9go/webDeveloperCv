@@ -15,7 +15,7 @@ export default function WebApp({
     const itemName = {
       name: likesName,
     };
-    let response = await fetch("http://127.0.0.1:8080/item-routes/add", {
+    let response = await fetch("https://webdevelopercv.onrender.com/add", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -29,7 +29,9 @@ export default function WebApp({
   useEffect(() => {
     // GET THE LIKES FROM THE BACKEND
     async function fetchLikes() {
-      let response = await fetch("http://127.0.0.1:8080/item-routes");
+      let response = await fetch(
+        "https://webdevelopercv.onrender.com/item-routes"
+      );
 
       if (response.ok) {
         let json = await response.json();

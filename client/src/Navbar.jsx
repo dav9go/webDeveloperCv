@@ -13,13 +13,16 @@ export default function Navbar() {
     const itemName = {
       name: "NavLikes",
     };
-    let response = await fetch("http://127.0.0.1:8080/item-routes/add", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(itemName),
-    });
+    let response = await fetch(
+      "https://webdevelopercv.onrender.com/item-routes/add",
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(itemName),
+      }
+    );
     console.log("NavLikes RESPONSE", response);
     setLikesCount(likesCount + 1);
   }
@@ -27,7 +30,9 @@ export default function Navbar() {
   useEffect(() => {
     // GET THE LIKES FROM THE BACKEND
     async function fetchNavLikes() {
-      let response = await fetch("http://127.0.0.1:8080/item-routes");
+      let response = await fetch(
+        "https://webdevelopercv.onrender.com/item-routes"
+      );
 
       if (response.ok) {
         let json = await response.json();
