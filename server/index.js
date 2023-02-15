@@ -6,10 +6,14 @@ import connectDB from "./mongodb/connect.js";
 import { connect } from "mongoose";
 import itemRoutes from "./routes/itemRoutes.js";
 
-dotenv.config();
+dotenv.config({ path: "ENV_FILENAME" });
 
 const app = express();
-app.use(cors());
+app.use(
+  cors({
+    origin: "*",
+  })
+);
 app.use(express.json({ limit: "50mb" }));
 
 app.use("/item-routes", itemRoutes);
