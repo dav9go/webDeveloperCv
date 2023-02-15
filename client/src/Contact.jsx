@@ -78,20 +78,20 @@ export default function Contact() {
                   Write your message!
                 </label>
               </div>
+              <input type="hidden" name="_next" value="/contact" />
+              <input type="text" name="_honey" className="hidden" />
+              <input
+                type="hidden"
+                name="_subject"
+                value="New email from PORTFOLIO"
+              />
               <button
-                className="w-full font-bold p-3 m-3 rounded-xl bg-[#ff3c78]"
+                className="w-full font-bold p-3 m-3 rounded-xl bg-[#ff3c78] hover:bg-[#f4195b] transition-all"
                 type="submit"
               >
                 Send
               </button>
             </div>
-            <input type="hidden" name="_next" value="" />
-            <input type="text" name="_honey" className="hidden" />
-            <input
-              type="hidden"
-              name="_subject"
-              value="New email from PORTFOLIO"
-            />
           </form>
         </section>
       </div>

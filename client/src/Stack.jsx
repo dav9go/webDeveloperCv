@@ -1,12 +1,6 @@
 export default function Stack() {
   return (
-    <div className="p-10 font-lato">
-      <h2 className="text-4xl sm:text-8xl md:text-9xl text-center sm:text-start">
-        STACK{" "}
-        <span className="text-2xl sm:text-5xl md:text-6xl text-slate-500">
-          MERN
-        </span>
-      </h2>
+    <>
       {/** First Line **/}
       <div className="flex flex-col sm:flex-row justify-between h-full w-full p-1 pb-5 lg:p-10 mt-10 border-white border-b ">
         <div>
@@ -118,6 +112,6 @@ export default function Stack() {
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }

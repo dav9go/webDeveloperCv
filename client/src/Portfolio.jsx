@@ -19,6 +19,7 @@ export default function Portfolio() {
         </div>
         <section className="mt-20 lg:p-10 flex flex-col gap-20">
           <WebApp
+            likesName="nhaDepLikes"
             photo={nhaDep}
             web="vietley.com"
             title={
@@ -33,6 +34,7 @@ export default function Portfolio() {
           />
 
           <WebApp
+            likesName="khuyenLikes"
             photo={khuyen}
             web="khuyenvanong.com"
             title={
@@ -46,6 +48,7 @@ export default function Portfolio() {
           />
 
           <WebApp
+            likesName="webDeveloperCVLikes"
             photo={portfolio}
             web="khuyenvanong.com"
             title={
