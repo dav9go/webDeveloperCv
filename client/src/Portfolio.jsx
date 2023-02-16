@@ -3,6 +3,7 @@ import WebApp from "./WebApp";
 import nhaDep from "./assets/loadingpic.png";
 import khuyen from "./assets/khuyenBig.png";
 import portfolio from "./assets/portfolio.png";
+import Footer from "./Footer";
 
 export default function Portfolio() {
   return (
@@ -113,7 +114,7 @@ export default function Portfolio() {
           <WebApp
             likesName="webDeveloperCVLikes"
             photo={portfolio}
-            web="khuyenvanong.com"
+            web="david-gomez.xyz"
             title={
               <h2>
                 Online{" "}
@@ -158,6 +159,7 @@ export default function Portfolio() {
           />
         </section>
       </div>
+      <Footer />
     </div>
   );
 }

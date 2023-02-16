@@ -1,5 +1,6 @@
 import Navbar from "./Navbar";
 import Socials from "./Socials";
+import Footer from "./Footer";
 
 export default function Contact() {
   return (
@@ -80,7 +81,11 @@ export default function Contact() {
                   Write your message!
                 </label>
               </div>
-              <input type="hidden" name="_next" value="/contact" />
+              <input
+                type="hidden"
+                name="_next"
+                value="https://www.david-gomez.xyz/thanks"
+              />
               <input type="text" name="_honey" className="hidden" />
               <input
                 type="hidden"
@@ -97,6 +102,7 @@ export default function Contact() {
           </form>
         </section>
       </div>
+      <Footer />
     </div>
   );
 }

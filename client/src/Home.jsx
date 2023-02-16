@@ -38,7 +38,7 @@ export default function Home() {
           sticky={{ start: 1, end: 2 }}
         >
           <div className="flex flex-col justify-center items-center h-full w-full">
-            <nav className="flex flex-col md:flex-row justify-around text-2xl sm:text-4xl md:text-6xl lg:text-8xl gap-20">
+            <nav className="flex flex-col lg:flex-row justify-around text-4xl sm:text-5xl md:text-6xl xl:text-8xl gap-6 lg:gap-20">
               <Link to="/" className="onPage relative pb-3 cursor-pointer">
                 Home
               </Link>

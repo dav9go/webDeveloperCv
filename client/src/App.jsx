@@ -3,6 +3,7 @@ import Home from "./Home";
 import Portfolio from "./Portfolio";
 import Contact from "./Contact";
 import StackPage from "./StackPage";
+import Thanks from "./Thanks";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/stack" element={<StackPage />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/thanks" element={<Thanks />} />
       </Routes>
     </div>
   );

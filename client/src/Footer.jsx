@@ -2,10 +2,10 @@ import facebook from "./assets/facebook-icon.png";
 import github from "./assets/github-icon.png";
 import linkedin from "./assets/linkedin-icon.png";
 
-export default function Socials() {
+export default function Footer() {
   return (
-    <div className="">
-      <div className="flex justify-around">
+    <div className="h-32 lg:h-20 bg-[#090909] p-5 flex flex-col gap-3 lg:flex-row items-center justify-between rounded-t-xl">
+      <div className="flex items-center gap-10">
         <a
           href="https://www.facebook.com/profile.php?id=100040950443262"
           hrefLang=""
@@ -15,7 +15,7 @@ export default function Socials() {
         >
           <img
             src={facebook}
-            style={{ height: 64, width: 64 }}
+            style={{ height: 32, width: 32 }}
             alt="facebook-icon"
             width="64"
             height="64"
@@ -30,7 +30,7 @@ export default function Socials() {
         >
           <img
             src={linkedin}
-            style={{ height: 64, width: 64 }}
+            style={{ height: 32, width: 32 }}
             alt="linkedin-icon"
             width="64"
             height="64"
@@ -45,13 +45,14 @@ export default function Socials() {
         >
           <img
             src={github}
-            style={{ height: 64, width: 64 }}
+            style={{ height: 32, width: 32 }}
             alt="github-icon"
             width="64"
             height="64"
           />
         </a>
       </div>
+      <p>©2023 David Gómez. All Rights Reserved.</p>
     </div>
   );
 }

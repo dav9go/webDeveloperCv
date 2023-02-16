@@ -7,6 +7,10 @@ module.exports = {
         lato: ["Lato", "sans-serif"],
         merienda: ["Merienda", "cursive"],
       },
+      screens: {
+        tall: { raw: "(min-height: 1100px)" },
+        // => @media (min-height: 800px) { ... }
+      },
     },
   },
   plugins: [],
