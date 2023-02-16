@@ -49,7 +49,9 @@ export default function Navbar() {
   return (
     <>
       <div className="lg:hidden flex flex-row justify-end w-full px-3">
-        <Hamburger opened={opened} setOpened={setOpened} />
+        <div className="relative z-30">
+          <Hamburger opened={opened} setOpened={setOpened} />
+        </div>
       </div>
       <div className="hidden lg:flex flex-row justify-end w-full p-5 gap-10 -ml-10 font-lexend">
         <div
