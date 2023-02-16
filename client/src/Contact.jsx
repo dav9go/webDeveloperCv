@@ -1,4 +1,5 @@
 import Navbar from "./Navbar";
+import Socials from "./Socials";
 
 export default function Contact() {
   return (
@@ -14,6 +15,7 @@ export default function Contact() {
           </p>
         </div>
         <section className="mt-20 lg:p-10 flex flex-col gap-20 max-w-5xl mx-auto">
+          <Socials />
           <form
             className="text-black"
             action="https://formsubmit.co/dc2b43c9518e86c5c5389c6689e55218"
