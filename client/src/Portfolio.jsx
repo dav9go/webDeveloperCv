@@ -118,7 +118,7 @@ export default function Portfolio() {
             title={
               <h2>
                 Online{" "}
-                <span className="text-[#ff3c78] font-bold">Piercing</span> Shop
+                <span className="text-[#ff3c78] font-bold">Portfolio</span> Page
               </h2>
             }
             stack="FULL STACK - React - Tailwind - Next.js 12 - MongoDB - Express"
