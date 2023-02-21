@@ -92,6 +92,7 @@ export default function Contact() {
                 name="_subject"
                 value="New email from PORTFOLIO"
               />
+              <input type="hidden" name="_captcha" value="false" />
               <button
                 className="w-full font-bold p-3 m-3 rounded-xl bg-[#ff3c78] hover:bg-[#f4195b] transition-all"
                 type="submit"
